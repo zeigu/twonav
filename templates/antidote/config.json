@@ -1,0 +1,37 @@
+{
+  "name": "Antidote解药",
+  "version": "2.5.5",
+  "description": "Antidote即解药，大方优雅的响应式模板，双栏设计，支持多个广告，有排行榜单文章模板。<br>新增文章分类显示<br>新增广告自助购买，对接易支付接口<br>适配2.5.5版本",
+  "author": "总裁QQ3092059473",
+  "authorUrl": "http://dh.peakmzf.cn/",
+  "pageTemplates": [
+    {
+      "name": "关于本站",
+      "path": "page_about"
+    },
+    {
+      "name": "申请收录",
+      "path": "page_apply"
+    },
+    {
+      "name": "排行榜单",
+      "path": "page_ranking"
+    },
+ {
+       "name": "友情链接",
+      "path": "page_link"
+    },
+ {
+      "name": "文章资讯",
+      "path": "page_archives"
+    },
+    {
+      "name": "广告购买",
+      "path": "page_pay"
+    },
+ {
+      "name": "在线工具",
+      "path": "page_tools"
+    }
+  ]
+}

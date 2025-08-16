@@ -1,0 +1,7 @@
+<?php
+/**
+ * 大刀娱乐网自动采集程序
+ * 作者 Hidove Ivey
+ * 2019年7月31日10:36:15
+ */
+include 'templates/default/category.html';

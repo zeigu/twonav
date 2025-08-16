@@ -1,0 +1,56 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "www-kihaxm-cn-5ig52fdv",
+    "options": {
+        "url": "http://www.kihaxm.cn/tcimg.html",
+        "index": "index.html",
+        "domain": "www.kihaxm.cn",
+        "origin": "http://www.kihaxm.cn",
+        "ipaddress": "156.241.132.14",
+        "originURL": "http://www.kihaxm.cn/tcimg.html",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/",
+                "cookie": "PHPSESSID=a3epg5likunsq7q4r332oj7t03"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Fri, 11 Jun 2021 15:10:55 GMT",
+                "content-type": "text/html; charset=UTF-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "cache-control": "no-store, no-cache, must-revalidate",
+                "pragma": "no-cache",
+                "content-encoding": "gzip"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1623424262731,
+        "end": 1623424272686,
+        "spend": 9.955
+    }
+}

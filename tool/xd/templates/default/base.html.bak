@@ -1,0 +1,18 @@
+<?php
+	include "config.php";
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title><?php echo $Hidove['title'];?>&#32;-&#32;专注活动，软件，教程分享&#32;-&#32;总之就是网络那些事。</title>
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="templates/default/css/style.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="<?php echo $Hidove['title'];?>,QQ业务乐园,QQ技术教程"/>
+	<meta name="description" content="<?php echo $Hidove['title'];?>是全网最大的免费网络资源分享平台"/>
+	<link href="https://i.cnm.ink/2019/07/31/5d411c3d8dea6.ico" rel="shortcut icon" type="image/ico" />
+</head>
+<body>
+<?php include "nav.html" ?>

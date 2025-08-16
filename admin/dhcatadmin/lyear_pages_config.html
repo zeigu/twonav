@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>网站配置 - 光年(Light Year Admin)后台管理系统模板</title>
+<link rel="icon" href="favicon.ico" type="image/ico">
+<meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">
+<meta name="author" content="yinqi">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/materialdesignicons.min.css" rel="stylesheet">
+<link href="css/style.min.css" rel="stylesheet">
+</head>
+  
+<body>
+<div class="container-fluid p-t-15">
+  
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <ul class="nav nav-tabs page-tabs">
+          <li class="active"> <a href="#!">网站基本配置</a> </li>
+          <li> <a href="show.php">网站显示配置</a> </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active">
+            
+            <form action="#!" method="post" name="edit-form" class="edit-form">
+              <div class="form-group">
+                <label for="web_site_title">网站名称</label>
+                <input class="form-control" type="text" value="<?php echo $CONFIG['name']; ?>" name="name" placeholder="请输入网站名称" >
+              </div>
+
+              <div class="form-group">
+                <label for="web_site_title">网站副标题</label>
+                <input class="form-control" type="text" value="<?php echo $CONFIG['title']; ?>" name="title" placeholder="请输入网站副标题" >
+              </div>
+
+              <div class="form-group">
+                <label for="web_site_title">关键词</label>
+                <input class="form-control" type="text" value="<?php echo $CONFIG['keywords']; ?>" name="keywords" placeholder="请输入网站关键词" >
+              </div>
+              
+              <div class="form-group">
+                <label for="web_site_description">网站描述</label>
+                <textarea class="form-control" name="description" rows="5"  placeholder="请输入网站描述" ><?php echo $CONFIG['description']; ?></textarea>
+                <small class="help-block">网站描述，有利于搜索引擎抓取相关信息</small>
+              </div>
+
+              <div class="form-group">
+                <label for="web_site_title">建站时间</label>
+                <input class="form-control" type="date" value="<?php echo date('Y-m-d', $CONFIG['time']); ?>" id="time" placeholder="请输入建站时间" >
+              </div>              
+
+              <div class="form-group">
+                <label for="web_site_title">备案号</label>
+                <input class="form-control" type="text" value="<?php echo $CONFIG['icp']; ?>" name="icp" placeholder="请输入ICP备案号" >
+              </div>
+              
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary m-r-5" onclick="editConfig()">保 存 配 置</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>
