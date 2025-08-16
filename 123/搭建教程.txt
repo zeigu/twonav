@@ -1,0 +1,24 @@
+﻿环境要求：
+ nginx1.2+            PHP7.0【必须7.0】      MySQL5.6
+
+第一步上传总裁导航程序到网站根目录
+上传完成后点解压
+
+第二步
+修改伪静态规则：
+location / {
+index index.php index.html;
+    if (!-e $request_filename) {
+        rewrite ^/(.*)$ /index.php last;
+    }
+}
+
+第三步
+访问网站开始安装
+打开网站 一切正常
+
+后台地址：http://域名/admin/
+后台账号：admin 密码123456
+
+
+
